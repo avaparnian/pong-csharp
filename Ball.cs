@@ -38,7 +38,7 @@ public class Ball {
     }
 
     public void Load() {
-        _ballTexture = Texture2D.FromStream(_game.GraphicsDevice, File.OpenRead(Path.GetFullPath("../../../res/images/ball.png")));
+        _ballTexture = Texture2D.FromStream(_game.GraphicsDevice, File.OpenRead("res/images/ball.png"));
     }
 
     public void Update() {
